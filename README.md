@@ -18,22 +18,21 @@ examples
 ========
 
 traverse
-    
-    var source = require('source')
-    console.dir(Object.keys(
-        source.modules('traverse')
-    ));
-
+```js
+const source = require('source')
+console.dir(Object.keys(
+    source.modules('traverse')
+));
+```
 *** 
    [ 'traverse', 'traverse/package.json' ]
-
 jade
-    
-    var source = require('source')
-    console.dir(Object.keys(
-        source.modules('jade')
-    ));
-
+```js
+const source = require('source')
+console.dir(Object.keys(
+    source.modules('jade')
+));
+```
 *** 
     [ 'jade',
       'jade/package.json',
